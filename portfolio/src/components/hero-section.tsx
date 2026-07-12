@@ -1,0 +1,5 @@
+import Link from "next/link";
+import { ArrowDown } from "lucide-react";
+export function HeroSection() {
+  return (<section className="relative flex min-h-[70vh] flex-col justify-center px-6 pt-24"><div className="mx-auto w-full max-w-5xl"><div className="max-w-2xl"><p className="text-sm font-medium text-muted-foreground">你好，我是</p><h1 className="mt-2 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">王梓杰</h1><p className="mt-4 text-lg leading-relaxed text-muted-foreground sm:text-xl">一名热爱前端开发的工程师，专注于构建美观、高性能的 Web 应用。</p><div className="mt-8 flex items-center gap-4"><Link href="/projects" className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground shadow-sm transition-all hover:opacity-90">查看项目</Link><Link href="/about" className="inline-flex h-10 items-center justify-center rounded-md border border-border bg-background px-6 text-sm font-medium shadow-sm transition-all hover:bg-accent">关于我</Link></div></div></div><div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce-custom"><ArrowDown className="h-5 w-5 text-muted-foreground" /></div></section>);
+}
