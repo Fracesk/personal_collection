@@ -5,6 +5,7 @@ export interface Project {
   tags: string[];
   slug: string;
   year: string;
+  image?: string;
   features: string[];
   techStack: string[];
 }
@@ -18,6 +19,7 @@ export const projects: Project[] = [
     tags: ["Spring Boot", "Vue 3", "AI", "全栈"],
     slug: "lingxi-creative",
     year: "2026",
+    image: "/images/lingxi-creative.png",
     features: [
       "AI 智能语义搜索，支持自然语言查询作品",
       "用户注册登录与 JWT 令牌认证",
@@ -36,6 +38,7 @@ export const projects: Project[] = [
     tags: ["Vue", "Element UI", "ECharts", "健康"],
     slug: "youkang-health",
     year: "2026",
+    image: "/images/youkang-health.png",
     features: [
       "智能健康评分算法（综合睡眠/运动/饮食维度）",
       "体征数据管理（身高/体重/血压/血糖/胆固醇）",
@@ -57,6 +60,7 @@ export const projects: Project[] = [
     tags: ["AI", "Demucs", "React", "FastAPI"],
     slug: "motone-audio",
     year: "2026",
+    image: "/images/motone-audio.png",
     features: [
       "AI 六音轨分离：人声/鼓/贝斯/吉他/钢琴/其他伴奏",
       "基于 Demucs Hybrid Transformer 深度学习模型",
