@@ -1,10 +1,4 @@
 {
-  "git": {
-    "deploymentEnabled": {
-      "main": true
-    }
-  },
-  "installCommand": "cd portfolio && npm install",
-  "buildCommand": "cd portfolio && npm run build",
-  "outputDirectory": "portfolio/.next"
+  "installCommand": "npm install",
+  "buildCommand": "npm run build"
 }
